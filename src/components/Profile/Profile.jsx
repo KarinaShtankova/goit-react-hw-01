@@ -7,7 +7,6 @@ export const Profile = ({
   image,
   stats: { followers, views, likes },
 }) => {
-  console.log(name, tag, location, image, followers, views, likes);
   return (
     <div className={css.container}>
       <div>
