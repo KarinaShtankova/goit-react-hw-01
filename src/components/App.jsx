@@ -1,12 +1,12 @@
-import css from './App.module.css';
-import { Profile } from './Profile/Profile';
 import userData from '../userData.json';
-import { FriendList } from './FriendList/FriendList';
 import friends from '../friends.json';
-import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import transactions from '../transactions.json';
 
-console.log(transactions);
+import { Profile } from './Profile/Profile';
+import { FriendList } from './FriendList/FriendList';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+
+import css from './App.module.css';
 
 export default function App() {
   return (

@@ -22,6 +22,7 @@
 }
 
 .type {
+  composes: td;
   text-transform: capitalize;
   text-align: left;
 }
